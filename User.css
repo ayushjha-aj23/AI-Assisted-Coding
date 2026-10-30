@@ -1,0 +1,13 @@
+.user-profile{
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.user-profile-avatar{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.user-profile-name{
+    font-weight: bold;
+}
