@@ -33,3 +33,14 @@ async function main() {
 }
 
 main();
+
+// Create another example usage with async/await
+async function exampleUsage() {
+    addTodo('Write tests');
+    addTodo('Refactor code');
+    await listTodos();
+    removeTodo(1);
+    await listTodos();
+}
+
+exampleUsage();
